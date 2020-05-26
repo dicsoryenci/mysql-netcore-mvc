@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erwin\\ejemplo-docker\\mvcMySQL\\mvcMySQL.csproj": {}
+    "C:\\Users\\erwin\\proyectos\\mvcMySQL\\mvcMySQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erwin\\ejemplo-docker\\mvcMySQL\\mvcMySQL.csproj": {
+    "C:\\Users\\erwin\\proyectos\\mvcMySQL\\mvcMySQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erwin\\ejemplo-docker\\mvcMySQL\\mvcMySQL.csproj",
+        "projectUniqueName": "C:\\Users\\erwin\\proyectos\\mvcMySQL\\mvcMySQL.csproj",
         "projectName": "mvcMySQL",
-        "projectPath": "C:\\Users\\erwin\\ejemplo-docker\\mvcMySQL\\mvcMySQL.csproj",
+        "projectPath": "C:\\Users\\erwin\\proyectos\\mvcMySQL\\mvcMySQL.csproj",
         "packagesPath": "C:\\Users\\erwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erwin\\ejemplo-docker\\mvcMySQL\\obj\\",
+        "outputPath": "C:\\Users\\erwin\\proyectos\\mvcMySQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\erwin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\erwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

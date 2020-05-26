@@ -5,4 +5,34 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <button class="btn btn-primary" onclick="cargarClientes()">Cargar</button>
+    <table id="tblClientes" class="table">
+        <thead>
+            <tr>
+                <th>NIT</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
 </div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+        });
+
+        function cargarClientes(){
+            $.get("Home/getClientes", function( data ) {
+                consola.log(data);
+                $("#tblClientes > tbody").html("");
+                for(var x=0;x<data.length;x++){
+                    $("#tblClientes > tbody").append("<tr><td>" + data[x].nit + "</td><td>"+data[x].nombre+"</td></tr>");
+                }
+                
+            });
+        }
+    </script>
+}
